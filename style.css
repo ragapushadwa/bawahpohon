@@ -8,15 +8,15 @@
 
 @font-face {
   font-family: "Ruhl";
-  src: url("/fonts/FrankRuhlLibre-Regular.ttf");
+  src: url("../fonts/FrankRuhlLibre-Regular.ttf");
 }
 @font-face {
   font-family: "Ruhl Medium";
-  src: url("/fonts/FrankRuhlLibre-Medium.ttf");
+  src: url("../fonts/FrankRuhlLibre-Medium.ttf");
 }
 @font-face {
   font-family: "Vibes";
-  src: url("/fonts/GreatVibes-Regular.ttf");
+  src: url("../fonts/GreatVibes-Regular.ttf");
 }
 
 html {
@@ -93,9 +93,15 @@ nav {
 }
 
 #logo {
-  
+  background-color: transparent;
     flex: 1 1 20rem;
 }
+
+#logo img{
+width: 20%;
+}
+
+
 .nav-links {
   display: flex;
   justify-content: space-around;
