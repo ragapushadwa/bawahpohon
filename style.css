@@ -98,7 +98,7 @@ nav {
 }
 
 #logo img{
-width: 20%;
+width: 22%;
 }
 
 
@@ -280,7 +280,7 @@ width: 20%;
 .about-image h5 {
   position: absolute;
   letter-spacing: 2rem;
-  top: 20%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -20%);
 }
@@ -317,6 +317,36 @@ width: 20%;
   background: var(--background-color);
   padding: 5rem 10rem;
   text-align: center;
+}
+/*VIDEO SECTION */
+.videobox{
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1rem;
+  min-height: 100vh;
+}
+.videobox video{
+width: 100%;
+height: 100%;
+}
+.videogallery{
+  background-color:transparent;
+  flex: 1 1 20rem;
+  justify-content: center;
+  border: solid 0.5rem;
+}
+.videotext{
+  flex: 1 1 20rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: solid 0.5rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.videotext h2{
+  font-family: "Vibes", sans-serif;
 }
 
 /*CONTACT SECTION */
